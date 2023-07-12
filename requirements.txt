@@ -1,3 +1,0 @@
-pillow~=9.3.0
-pillow-heif
-pdf2image~=1.16.3
