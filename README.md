@@ -18,8 +18,6 @@ This repo is the week-03-homework's source code at Cinnamon AI Bootcamp. In this
    
 2. Setup ```pdf2image``` [Poppler](https://pypi.org/project/pdf2image/) dependencies to install Poppler and save the directory to PATH environment variable.
 
-Refer to this link [here](https://pypi.org/project/pdf2image/)
-
 ## Structure of workspace
 
 ```
