@@ -6,7 +6,7 @@ from pillow_heif import register_heif_opener
 from pdf2image import convert_from_path
 
 """
-The program converts a file (.png, .heic, .tiff, .pdf) to PNGs and saves them to a directory
+The tool converts a file (.png, .heic, .tiff, .pdf) to PNGs and saves them to a directory
 """
 
 
