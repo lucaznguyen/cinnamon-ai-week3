@@ -43,7 +43,7 @@ Main-folder/
 
 This repo is made by 1Vision Team, a team consists of 4 people in Cinnamon Bootcamp 2023
 
-| Name | Github Acc |
+| Name | Github |
 |-|-|
 | Nguyễn Tư Thành Nhân | [ngtuthanhan](https://github.com/ngtuthanhan) |
 | Lê Nhật Kha | [khalee2307](https://github.com/KhaLee2307) |
