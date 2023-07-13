@@ -17,12 +17,12 @@ if __name__ == "__main__":
     """ Argument """ 
     parser = argparse.ArgumentParser()
     parser.add_argument(
-        "--from_path",
+        "--f",
         default="example.heic",
         help="the path of the file that needs to be converted",
     )
     parser.add_argument(
-        "--to_path",
+        "--o",
         default="./",
         help="the path of the converted file",
     )
