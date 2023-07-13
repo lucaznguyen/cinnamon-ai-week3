@@ -11,10 +11,8 @@ The tool converts a file (.png, .heic, .tiff, .pdf) to PNGs and saves them to a 
 
 
 class ConvertToImage:
-
     @staticmethod
-    def convert_pdf_to_png(pdf_file_path: str,
-                           poppler_path: str) -> list[object]:
+    def convert_pdf_to_png(pdf_file_path: str, poppler_path: str) -> list[object]:
         """
         Converts a PDF to PNGs and saves them to a directory
 
@@ -24,22 +22,22 @@ class ConvertToImage:
             The path to the PDF
         poppler_path: str
             The path to the poppler bin folder
-            
+
         Returns
         -------
         pages: list[object]
-            List of PIL.Image.Image objects  
+            List of PIL.Image.Image objects
         """
         pages = convert_from_path(pdf_file_path, poppler_path=poppler_path)
         return pages
 
     @staticmethod
-    def save_pngs(images: list[object],
-                  file_name: str,
-                  directory: str = "result") -> None:
+    def save_pngs(
+        images: list[object], file_name: str, directory: str = "result"
+    ) -> None:
         """
-        Saves PNGs to a specified directory     
-        
+        Saves PNGs to a specified directory
+
         Parameters
         ----------
         directory: str
@@ -64,7 +62,7 @@ class ConvertToImage:
     def convert(from_path: str, to_path: str = None) -> list[object]:
         """
         Converts a file (.png, .heic, .tiff, .pdf) to PNGs and saves them to a directory.
-        
+
         Parameters
         ----------
         from_path: str
@@ -90,7 +88,7 @@ class ConvertToImage:
 
         logging.info("Converting file to PNG.")
 
-        if file_extension == '.pdf':
+        if file_extension == ".pdf":
             images = ConvertToImage.convert_pdf_to_png(from_path)[0]
         else:
             images = [Image.open(from_path)]

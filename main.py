@@ -8,13 +8,13 @@ The program converts a file (.png, .heic, .tiff, .pdf) to PNGs and saves them to
 
 
 def convert_to_images(opt: object) -> None:
-    
+
     # Conversion process
     ConvertToImage.convert(opt.from_path, opt.to_path)
 
 
 if __name__ == "__main__":
-    """ Argument """ 
+    """Argument"""
     parser = argparse.ArgumentParser()
     parser.add_argument(
         "--f",
