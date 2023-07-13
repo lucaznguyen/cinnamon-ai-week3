@@ -45,6 +45,6 @@ This repo is made by 1Vision Team, a team consists of 4 people in Cinnamon Bootc
 |-|-|
 | Nguyễn Tư Thành Nhân | [ngtuthanhan](https://github.com/ngtuthanhan) |
 | Lê Nhật Kha | [khalee2307](https://github.com/KhaLee2307) |
-| Nguyen Tran Huu Thinh | [lucaznguyen](https://github.com/lucaznguyen) |
+| Nguyễn Trần Hữu Thịnh | [lucaznguyen](https://github.com/lucaznguyen) |
 | Đinh Ngọc Ân | [andythetechnerd03](https://github.com/andythetechnerd03) |
 | Võ Hoàng Bảo Duy | [vhbaoduy](https://github.com/vhbaoduy) |
